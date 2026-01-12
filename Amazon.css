@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Layout Fix */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    /* Using a direct web link for the logo */
+    background-image: url("https://pngimg.com/uploads/amazon/amazon_PNG11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+}
+
+/* Search Bar Fix */
+.nav-search {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+    height: 40px;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+    color: #333;
+}
+
+/* Box Images - Using Placeholders */
+.box-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f3f3f3; /* Fallback color */
+}
